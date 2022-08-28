@@ -25,4 +25,7 @@
     <!-- Disable Bluetooth -->
     <bool name="def_bluetooth_on">false</bool>
 
+    <!-- Disable location by default -->
+    <integer name="def_location_mode">0</integer>
+
 </resources> 
