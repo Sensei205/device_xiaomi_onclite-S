@@ -20,6 +20,7 @@ TARGET_BOOT_ANIMATION_RES := 720
 
 # Superior Stuff
 TARGET_FACE_UNLOCK_SUPPORTED := true
+BUILD_WITH_GAPPS := false
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := superior_onclite
