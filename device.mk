@@ -134,7 +134,8 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
 
 PRODUCT_PACKAGES += \
-    GcamGoMod
+    GcamGoMod \
+    MatLog
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
