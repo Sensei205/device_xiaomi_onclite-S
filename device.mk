@@ -135,7 +135,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     GcamGoMod \
-    MatLog
+    MatLog \
+    SimpleGallery
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
