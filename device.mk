@@ -137,7 +137,8 @@ PRODUCT_PACKAGES += \
     GcamGoMod \
     MatLog \
     SimpleGallery \
-    ViaBrowser
+    ViaBrowser \
+    MiXplorer
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
