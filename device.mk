@@ -135,7 +135,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     GcamGoMod \
-    MatLog
+    MatLog \
+    MiXplorer
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
