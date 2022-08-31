@@ -139,7 +139,7 @@ PRODUCT_PACKAGES += \
     Gallery \
     ViaBrowser \
     MiXplorer \
-    ExternalStorageProvider
+    ExternalStorageProviderL
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
