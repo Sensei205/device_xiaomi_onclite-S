@@ -138,7 +138,8 @@ PRODUCT_PACKAGES += \
     MatLog \
     Gallery \
     ViaBrowser \
-    MiXplorer
+    MiXplorer \
+    ExternalStorageProvider
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
