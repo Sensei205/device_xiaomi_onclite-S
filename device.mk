@@ -136,7 +136,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GcamGoMod \
     MatLog \
-    SimpleGallery \
+    Gallery \
     ViaBrowser \
     MiXplorer
 
