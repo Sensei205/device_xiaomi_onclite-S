@@ -134,7 +134,6 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
 
 PRODUCT_PACKAGES += \
-    GoogleCamera \
     GcamGoMod
 
 # Dalvik
@@ -218,10 +217,6 @@ PRODUCT_PACKAGES += \
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
-
-# Google Photos
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pixel_2016_exclusive.xml
 
 # Health HAL
 PRODUCT_PACKAGES += \
