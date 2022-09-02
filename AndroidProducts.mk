@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_onclite.mk
+    $(LOCAL_DIR)/aicp_onclite.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_onclite-user \
-    derp_onclite-userdebug \
-    derp_onclite-eng
+    aicp_onclite-user \
+    aicp_onclite-userdebug \
+    aicp_onclite-eng
