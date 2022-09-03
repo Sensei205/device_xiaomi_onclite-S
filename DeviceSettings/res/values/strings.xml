@@ -150,6 +150,12 @@
     <string name="dirac_preset_soft_treble">Soft Treble</string>
 
     <string name="thermal_root">Thermal</string>
+
+    <!-- Torch -->
+    <string name="torch_title">Torch Settings</string>
+    <string name="torch_summary">Flashlight white/yellow control</string>
+    <string name="yellow_torch_brightness_title">Yellow Torch Brightness</string>
+    <string name="white_torch_brightness_title">White Torch Brightness</string>
     
     <!-- Thermal Profiles -->
     <string name="thermal_title">Thermal Profiles</string>

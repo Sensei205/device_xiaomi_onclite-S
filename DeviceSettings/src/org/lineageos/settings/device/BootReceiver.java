@@ -24,6 +24,8 @@ import android.provider.Settings;
 import org.lineageos.settings.device.kcal.Utils;
 import org.lineageos.settings.device.preferences.SecureSettingSwitchPreference;
 import org.lineageos.settings.device.thermal.ThermalUtils;
+import org.lineageos.settings.device.torch.TorchSettings;
+import org.lineageos.settings.device.torch.TorchFileUtils;
 
 import java.lang.Math.*;
 
@@ -62,6 +64,14 @@ public class BootReceiver extends BroadcastReceiver implements Utils {
                     PREF_HUE, HUE_DEFAULT));
         }
         
+		// Torch Settings
+		TorchFileUtils.setValue(TorchSettings.TORCH_1_BRIGHTNESS_PATH,
+                Settings.Secure.getInt(context.getContentResolver(),
+                        TorchSettings.KEY_WHITE_TORCH_BRIGHTNESS, 100));
+        TorchFileUtils.setValue(TorchSettings.TORCH_2_BRIGHTNESS_PATH,
+                Settings.Secure.getInt(context.getContentResolver(),
+                        TorchSettings.KEY_YELLOW_TORCH_BRIGHTNESS, 100));
+						
         // Audio Gain
         int gain = Settings.Secure.getInt(context.getContentResolver(),
                 DeviceSettings.PREF_HEADPHONE_GAIN, 0);

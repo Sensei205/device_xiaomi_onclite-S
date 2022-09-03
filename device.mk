@@ -243,7 +243,7 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.xiaomi_parts.rc \
+    init.xiaomi_parts.rc
 
 # IMS
 PRODUCT_PACKAGES += \
