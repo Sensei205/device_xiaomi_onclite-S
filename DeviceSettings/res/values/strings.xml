@@ -162,4 +162,9 @@
     <string name="thermal_gaming">Gaming</string>
     <string name="thermal_streaming">Streaming</string>
 
+    <!-- UiBench -->
+    <string name="jitter_test_title">Jitter Test</string>
+    <string name="jitter_test_summary">Calculate rendering jitter</string>
+    <string name="jitter_test">Jitter</string>
+
 </resources>

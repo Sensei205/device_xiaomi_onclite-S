@@ -180,4 +180,19 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="jitter_test"
+        android:title="@string/jitter_test">
+
+        <Preference
+            android:icon="@drawable/ic_jitter"
+            android:title="@string/jitter_test_title"
+            android:summary="@string/jitter_test_summary">
+            <intent 
+                android:action="android.intent.action.MAIN"
+                android:targetClass="org.lineageos.settings.device.uibench.JitterTestActivity"
+                android:targetPackage="org.lineageos.settings.device" />
+        </Preference>
+    </PreferenceCategory>
+
 </PreferenceScreen>
