@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2020 The BlissRoms Project
+# Copyright (C) 2019-2020 The SuperiorOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,17 +12,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from onclite device
 $(call inherit-product, device/xiaomi/onclite/device.mk)
 
-# Inherit some common PixelExtended stuff.
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+# Inherit some common SuperiorOS stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 720
 
-# BlissRoms Official Stuff
+# SuperiorOS Stuff
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := bliss_onclite
+PRODUCT_NAME := superior_onclite
 PRODUCT_DEVICE := onclite
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
